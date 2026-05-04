@@ -8,6 +8,8 @@ import style from './App.module.css'
 import { Header } from './components/Header/Header.jsx'
 import { ProgressBar } from './components/ProgressBar/ProgressBar.jsx'
 import { MainBlock } from './components/MainBlock/MainBlock.jsx'
+import { Row } from './components/Row/Row.jsx'
+
 
 
 function App() {
@@ -61,13 +63,7 @@ function App() {
                       <section className={style.section}>
                           <p className={style.headline}>Каталог тем</p>
       
-                          <div className={style.filterRow}>
-                              <button className={style.littralySelectedButton} type="button">Все</button>
-                              <button className={style.notSelectedButton} type="button">Рабочая среда</button>
-                              <button className={style.notSelectedButton} type="button">Библиотеки</button>
-                              <button className={style.notSelectedButton} type="button">Пройденые</button>
-                              <button className={style.notSelectedButton} type="button">не пройденые</button>
-                          </div>
+                          <Row  />
       
                           <div className={style.notWhiteBlock}>
                               <Card title="Начало работы" categories={["Для новичка", "Основы работы"]} desc="Познакомьтесь ближе с компанией и узнайте больше о том, что вы делаете" />
