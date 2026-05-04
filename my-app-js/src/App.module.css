@@ -85,7 +85,18 @@
 }
 
 
+.circle {
+    position: relative;
+    min-width: 170px;
+    min-height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.circle svg {
+    display: block;
+}
 
 
 
