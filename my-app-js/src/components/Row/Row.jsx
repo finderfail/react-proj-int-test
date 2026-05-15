@@ -7,7 +7,7 @@ export const Row = () => {
                                       <button className={styles.notSelectedButton} type="button">Рабочая среда</button>
                                       <button className={styles.notSelectedButton} type="button">Библиотеки</button>
                                       <button className={styles.notSelectedButton} type="button">Пройденые</button>
-                                      <button className={styles.notSelectedButton} type="button">не пройденые</button>
+                                      <button className={styles.notSelectedButton} type="button">Не пройденые</button>
                                   </div>
     )
 }

@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+:root {
+    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
+
+body {
+    font-family: var(--font-mono);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
 .container {
     background-color: #e8f5fb;
     min-height: 100vh;
@@ -20,7 +32,8 @@
     font-size: 24px;
     line-height: 150%;
     color: #002033;
-    margin: 0 0 20px 240px;
+    font-weight: bold;
+    margin: 0 0 20px 250px;
     
 }
 
